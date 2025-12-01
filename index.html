@@ -7,16 +7,39 @@
     <title>Web Games</title>
 </head>
 <body>
-    <navbar id="sidebar">
+    <nav id="sidebar">
+        <button class="sidebar-button">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <path id="x-mark" d="M-5,-5 L5,5 M-5,5 L5,-5" />
+                </defs>
+
+                <g class="icon-cross">
+                    <use href="#x-mark" x="15" y="15" />
+                    <use href="#x-mark" x="32" y="32" />
+                    <use href="#x-mark" x="50" y="50" />
+                </g>
+
+                <g class="icon-nought">
+                    <circle cx="15" cy="32.5" r="5" />
+                    <circle cx="15" cy="50" r="5" />
+                    <circle cx="50" cy="15" r="5" />
+                </g>
+            </svg>
+        </button>
         <button class="sidebar-button">
 
         </button>
         <button class="sidebar-button">
-            
+            <svg class="icon-container" viewBox="0 0 16.933332 16.933332" xmlns="http://www.w3.org/2000/svg">
+                <g id="icon">
+                    <circle id="icon_stone" cx="8.4666662" cy="8.4666662" r="8.4666662" class="icon-stone" />
+                    <path id="icon_shadow"
+                    d="m 13.929634,2.0008509 c 2.970452,3.3552668 2.47296,8.0643361 -0.700468,11.2283151 -3.153224,3.112208 -7.9064042,3.594637 -11.2456738,0.682947 0.1275825,0.159875 0.3338052,0.36737 0.4726284,0.517588 3.2932935,3.319533 8.6540484,3.340804 11.9735814,0.04751 3.319532,-3.293293 3.340803,-8.6540471 0.04751,-11.9735794 C 14.302134,2.3281001 14.119431,2.1603432 13.92963,2.0008459 Z"
+                    class="icon-shadow" />
+                </g>
+            </svg>
         </button>
-        <button class="sidebar-button">
-            
-        </button>
-    </navbar>
+    </nav>
 </body>
 </html>
