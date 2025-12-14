@@ -67,7 +67,8 @@ body {
 
 /* Shared Fills */
 .icon-stone,
-.icon-shadow {
+.icon-shadow,
+.icon-chess {
   fill: var(--secondary-colour);
   fill-opacity: 1;
 }
